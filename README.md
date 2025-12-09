@@ -102,7 +102,8 @@ To adapt for **Ethereum Mainnet**, replace simulated data with real contract cal
 ├── drosera.toml
 ├── foundry.toml
 ├── remappings.txt
-└── README.md```
+└── README.md
+```
 
 
 ## 🔒 Security Considerations
@@ -129,4 +130,4 @@ To adapt for **Ethereum Mainnet**, replace simulated data with real contract cal
 ## 📄 License
 
 MIT
-# governance-flash-attack-trap
+
