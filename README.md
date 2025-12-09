@@ -50,9 +50,10 @@ This trap simulates detection of flash governance attacks by monitoring 4 key ve
 ```bash
 cast send 0x746e2965034c3912f998358C62322c66B99f9c7b \
   "updateSimulatedState(uint256,uint256,uint256,uint256)" \
-  1 45 25 12 --rpc-url https://rpc.hoodi.ethpandaops.io --private-key $PRIVATE_KEY```
+  1 45 25 12 --rpc-url https://rpc.hoodi.ethpandaops.io --private-key $PRIVATE_KEY
+```
 
-Parameters : `(proposalActive, votingPower%, treasuryExposure%, hoursRemaining)`
+**Parameters :** `(proposalActive, votingPower%, treasuryExposure%, hoursRemaining)`
 
 ### Trigger Conditions
 - Set at least 3 parameters above thresholds
