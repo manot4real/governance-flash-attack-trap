@@ -1,0 +1,21 @@
+# Hoodi Testnet Configuration
+ethereum_rpc = "https://rpc.hoodi.ethpandaops.io/"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps]
+[traps.governance_flash_attack_trap]
+path = "out/GovernanceFlashAttackTrap.sol/GovernanceFlashAttackTrap.json"
+response_contract = "0xa1332B88f0B4FD1A883252B620F7D5f384417650"
+response_function = "respondToGovernanceAttack(bool,bool,bool,bool,uint8,uint256,uint256,uint256)"
+cooldown_period_blocks = 33
+min_number_of_operators = 1
+max_number_of_operators = 3
+block_sample_size = 10
+private = true
+whitelist = ["0xdf906B92b47007396441A77313b381C590c5Bd89"]
+private_trap = true
+address = "0x746e2965034c3912f998358C62322c66B99f9c7b"
+# CRITICAL: DO NOT add 'address = ...' here
+# Drosera will auto-deploy the Trap and fill this field
