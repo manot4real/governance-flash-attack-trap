@@ -76,7 +76,8 @@ block_sample_size = 10
 private = true
 whitelist = ["0xdf906B92b47007396441A77313b381C590c5Bd89"]
 private_trap = true
-address = "0x746e2965034c3912f998358C62322c66B99f9c7b"```
+address = "0x746e2965034c3912f998358C62322c66B99f9c7b"
+```
 
 ## 🚀 Mainnet Adaptation
 To adapt for **Ethereum Mainnet**, replace simulated data with real contract calls:
